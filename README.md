@@ -7,6 +7,7 @@ This is the **frontend** repository for the Movie Ticket Booking Platform. Built
 ## 🚀 Features  
 
 ### User Side  
+
 - Browse a list of movies with details like title, genre, and duration.  
 - Search movies based on title or keywords.  
 - View available shows for a selected movie, including theater and screen details.  
@@ -15,6 +16,7 @@ This is the **frontend** repository for the Movie Ticket Booking Platform. Built
 - View and manage your profile with past booking details.  
 
 ### Admin Side  
+
 - Add, edit, or delete movies.  
 - Manage theaters, screens, and show schedules.  
 - Assign movies to theaters and screens with date, time, and pricing details.  
@@ -33,18 +35,21 @@ This is the **frontend** repository for the Movie Ticket Booking Platform. Built
 ## 🛠️ Project Setup  
 
 ### Prerequisites  
+
 - Node.js (version 18 or above)  
 - npm or yarn  
 
 ### Installation  
 
 1. Clone the repository:  
+
    ```bash  
    git clone <repository-url>  
    cd <repository-folder>  
    ```  
 
 2. Install dependencies:  
+
    ```bash  
    npm install  
    # or  
@@ -53,11 +58,13 @@ This is the **frontend** repository for the Movie Ticket Booking Platform. Built
 
 3. Set up environment variables:  
    Copy the `.env_sample` to `.env` and configure the necessary values:  
+
    ```env  
    NEXT_PUBLIC_BACKEND_HOST=http://localhost:8000  
    ```  
 
 4. Start the development server:  
+
    ```bash  
    npm run dev  
    # or  
@@ -108,21 +115,25 @@ src/app/                     # Main application folder
 ## 🔧 Scripts  
 
 - **Start Development Server**:  
+
    ```bash  
    npm run dev  
    ```  
 
 - **Build for Production**:  
+
    ```bash  
    npm run build  
    ```  
 
 - **Start Production Server**:  
+
    ```bash  
    npm start  
    ```  
 
 - **Lint the Code**:  
+
    ```bash  
    npm run lint  
    ```  
@@ -135,6 +146,7 @@ Create a `.env` file in the root directory and configure the following variables
 
 ```env  
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8000  
+NEXT_PUBLIC_PAYPAL_CLIENT_ID=NEXT_PUBLIC_PAYPAL_CLIENT_ID
 ```  
 
 ---
@@ -152,6 +164,7 @@ The backend services for this application can be found [here](https://github.com
 ---
 
 ## 📈 Future Enhancements  
+
 - Implement seat selection and interactive booking.  
 - Add user feedback and ratings for movies.  
 - Introduce payment gateway integration.  
