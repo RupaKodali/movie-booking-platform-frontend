@@ -147,7 +147,7 @@ This project is licensed under the MIT License.
 
 ## 📥 Backend Repository  
 
-The backend services for this application can be found [here](https://github.com/RupaKodali/movie-booking-platform-frontend).  
+The backend services for this application can be found [here](https://github.com/RupaKodali/movie-booking-platform-backend).  
 
 ---
 
